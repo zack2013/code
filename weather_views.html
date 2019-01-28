@@ -42,7 +42,7 @@
         var res = $.ajax({url:"/status?visitors",async:false}).responseText;
         var visitors = eval(res);
         $("#visitors-data").text(visitors);
-    })
+    });
     </script>
 </head>
 <body>
